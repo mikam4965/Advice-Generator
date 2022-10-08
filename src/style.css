@@ -65,7 +65,7 @@
 
 .hero .container button:hover{
     background: hsl(150, 100%, 66%);;
-    box-shadow: 0 0 35px hsl(150, 100%, 66%);
+    box-shadow: 0 0 40px hsl(150, 100%, 66%);
 }
 
 .hero .container button:active {
