@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: hsl(218, 23%, 16%);
+    color: #fff;
+    display: flex;
+}
+
+.hero .container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(217, 19%, 24%);
+    border-radius: 10px;
+}
+
+.hero .container .number {
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.hero .container .quote {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+}
+
+.hero .container .logo img{
+    align-self: center;
+    width: 100%;
+    position: relative;
+    bottom: -40px;
+}
+
+.hero .container button{
+    background: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 100%;
+    padding: 15px;
+    cursor: pointer;
+    align-self: center;
+    position: relative;
+    bottom:-60px;
+    display: grid;
+     align-items: center;
+}
+
+.hero .container button:hover{
+    background: hsl(150, 100%, 66%);;
+    box-shadow: 0 0 35px hsl(150, 100%, 66%);
+}
+
+.hero .container button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px hsl(150, 100%, 66%);
+}
+
+
+
+
+
+
+
